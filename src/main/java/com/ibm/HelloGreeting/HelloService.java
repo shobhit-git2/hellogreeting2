@@ -10,7 +10,7 @@ public class HelloService {
 
     @RequestMapping(path="/greeting2", method= RequestMethod.GET)
     public String sayHi(@RequestParam String name){
-    String message = "Bye"+" "+name;
+    String message = "Bye Bye"+" "+name;
     return message;
     }
 }
